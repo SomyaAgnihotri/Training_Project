@@ -1,0 +1,75 @@
+.register{
+    background-color: aliceblue;
+    height: 650px;
+    width: 400px;
+    align-self: center;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: aliceblue;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.center{
+    background: aliceblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    padding: 2px 0;
+    font-size: 16px;
+    color: teal;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center input {
+    width: 80%;
+    height: 50%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: teal;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .center select{
+
+        border-color:aliceblue;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-style: solid;
+        border-radius: 4%;
+        font-family: sans-serif;
+        color:teal;
+        background-color: aliceblue;
+      
+      }
+.button2{
+    
+    display: inline-block;
+    position: relative;
+    color: darkcyan;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    bottom:20px;
+    letter-spacing: 4px;
+    
+}
+
+.button4 {
+    margin-left: 50px;
+}

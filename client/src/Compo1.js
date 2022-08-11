@@ -1,0 +1,30 @@
+import { Component } from "react";
+class Compo1 extends Component{
+    constructor(){
+        super()
+        this.state = {
+            "UserName" : " ",
+            "Password" : " ",
+            "Role" : "",
+            "Face Verification" : " ",
+            "Face Recognition" : " "
+        }
+    }
+    render(){
+        return(<div>
+            <input type = "Submit" name="login" value="Login"></input> <br></br>
+            <li>UserName</li>
+            <li>Password</li>
+            <li>Role</li>   
+            <li>Face Verification</li>
+            <input type = "Submit" name="login" value="Register"></input>
+            <li>UserName</li>
+            <li>Password</li>
+            <li>Role</li>   
+            <li>Photo Upload</li>
+            <li>Face Recognition</li>
+        </div>)
+    }
+}
+export default Compo1;
+    

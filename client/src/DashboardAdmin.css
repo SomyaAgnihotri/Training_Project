@@ -1,0 +1,122 @@
+.flexbox-container{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height:fit-content;
+    /* border-radius: 2%; */
+    /* border-style: double; */
+    /* margin-top: 5%;
+    margin-left: 4%; */
+}
+.flexbox-container h1{
+  text-align: center;
+  font-family: sans-serif;
+}
+.dashboard-left{
+   text-align: center;
+    display: inline-block;
+    position: relative;
+    top : 20px;
+    /* background-color: azure; */
+    width: 250px;
+    left:50px;
+    height: fit-content;
+  }
+.dashboard-right{
+    display : inline-block;
+    height:600px;
+    width: 1300px;
+    background-color: rgb(190, 236, 233);
+    position: relative;
+    bottom:540px;
+    /* border-radius: 10%; */
+    /* border-style: double; */
+    left: 100px;
+    text-align: center;
+    /* text-decoration: wavy; */
+    font-size: 30px;    
+    
+  }
+
+.column{
+  background-color: #ABC9FF;
+  padding: 5%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.row{
+  padding: 3% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.upload-button, .view-button{
+  background-color: transparent;
+  padding: 3% 7%;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.box-title{
+  margin: 0 0 10%;
+}
+
+.links{
+  padding: 0 4%;
+  
+}
+
+  /* .D1{
+    border-radius: 4%;
+    border-style: solid;
+    background-color: aqua ;
+    height: 200px;
+    width: 150px;
+    position: relative;
+    bottom: 1090px;
+    left:550px;
+    
+  }
+  .D2{
+    border-radius: 4%;
+    border-style: solid;
+    background-color: aqua ;
+    height: 200px;
+    width: 150px;
+    position: relative;
+    bottom:20px;
+    left: 150px;
+  }
+  .D3{
+    border-radius: 4%;
+    border-style: solid;
+    background-color: aqua ;
+    height: 250px;
+    width: 300px;
+    position: relative;
+    top:200px;
+    right: 150px
+    
+  }
+  .D4{
+    border-radius: 4%;
+    border-style: solid;
+    background-color: aqua ;
+    height: 250px;
+    width: 300px;
+    position: relative;
+    bottom:52px;
+    left:200px
+  }
+  .D5{
+    border-radius: 4%;
+    border-style: solid;
+    background-color: aqua ;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    bottom: 526px;
+    left:200px
+  } */

@@ -1,0 +1,38 @@
+.flexbox-teacher{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height:fit-content;
+    /* border-radius: 2%; */
+    /* border-style: double; */
+    /* margin-top: 5%;
+    margin-left: 4%; */
+}
+.flexbox-teacher h1{
+  text-align: center;
+  font-family: sans-serif;
+}
+.dash-left{
+   text-align: center;
+    display: inline-block;
+    position: relative;
+    top : 30px;
+    /* background-color: azure; */
+    width: 250px;
+    left:50px;
+    height: fit-content;
+  }
+   
+.dash-right{
+    display : inline-block;
+    height:600px;
+    width: 1300px;
+    background-color: rgb(190, 236, 233);
+    position: relative;
+    bottom:220px;
+    /* border-radius: 10%; */
+    /* border-style: double; */
+    left: 100px;
+    text-align: center;
+    /* text-decoration: wavy; */
+    font-size: 30px;    
+}
